@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "name": "ProjetoCabo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd frontend && yarn dev\" \"cd backend && node server.js\""
+  },
+  "repository": "https://github.com/EnsFla/ProjetoCabo.git",
+  "author": "EnsFla <ens-flaviobronovski@ugv.edu.br>",
+  "license": "MIT"
+}
